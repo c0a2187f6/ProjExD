@@ -7,6 +7,7 @@ num_of_all_chars = 10 #対象文字数
 num_of_abs_chars = 2 #欠損文字数
 num_of_trials = 2 #最大繰り返し回数
 
+
 def shutudai(alphabet):
   all_chars = random.sample(alphabet, num_of_all_chars)
   print("対象文字：")
