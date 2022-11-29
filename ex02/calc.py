@@ -51,7 +51,7 @@ entry = tk.Entry(root, justify="right", width=10, font=("", 20))
 entry.grid(row=0, column=0, columnspan=3)
 
 
-for r, row in enumerate(BUTTON, 1):
+for r, row in enumerate(BUTTON, 1): #ボタンを配置
   for c, num in enumerate(row):
     button = tk.Button(root, text=num, font=('', 15), width=6, height=3, bg='#ffffff')
     button.grid(row=r, column=c)
