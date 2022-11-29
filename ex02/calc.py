@@ -37,7 +37,7 @@ def button_click(event):
     entry.delete(0, tk.END) #オールクリア
   elif num == "C":
     entry.delete(len(entry.get())-1, tk.END) #1文字クリア
-  else:
+  else: #四則演算を行う
     # tkm.showinfo("", f"{num}ボタンが押されました")
     #練習6
     entry.insert(tk.END, num)
