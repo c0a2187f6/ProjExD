@@ -69,8 +69,8 @@ if __name__ == "__main__":
   mm.show_maze(canvas, maze_lst)
 
 
-  kokaton = tk.PhotoImage(file="fig/4.png")
-  kokaton2 = tk.PhotoImage(file="fig/1.png")
+  kokaton = tk.PhotoImage(file="fig/4.png") 
+  kokaton2 = tk.PhotoImage(file="fig/1.png") # 壁にぶつかったときのこうかとん
   mx, my = 1, 1
   cx, cy = mx*100+50, my*100+50
 
