@@ -41,8 +41,8 @@ def main_proc():
     if key =="Right":
       mx -= 1
     canvas.coords("kokaton2", cx, cy)
-  else:
-    canvas.coords("kokaton", cx, cy)
+  # else:
+  #   canvas.coords("kokaton", cx, cy)
 
 
   cx, cy = mx*100+50, my*100+50
