@@ -54,7 +54,7 @@ def main():
     fonto = pg.font.Font(None, 80)
     hpnum = 3
     hp = fonto.render((f"LIFE: {hpnum}"), True, (255, 0, 0)) # 残り体力の表示
-    gmov = fonto.render("Game Over", True, (255, 0, 0)) # ゲームオーバーの表示
+    gmov = fonto.render("Game Over", True, (255, 0, 0)) # ゲームオーバーの表示(時間不足により未実装)
     muteki = 0 # 無敵時間
 
     # 練習２
